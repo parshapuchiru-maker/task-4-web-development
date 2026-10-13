@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>My Portfolio</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div>
+            <h1>Hello, I'm <span>Vinay</span></h1>
+            <h2>Web Developer</h2>
+            <p>I create responsive and interactive websites using HTML, CSS and JavaScript.</p>
+            <a href="#projects" class="btn">View My Projects</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="title">About Me</h2>
+        <p>
+            I am a B.Tech student interested in web development and programming.
+            I enjoy creating responsive websites and learning new technologies.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2 class="title">My Skills</h2>
+
+        <div class="skills">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>Python</div>
+            <div>SQL</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="title">My Projects</h2>
+
+        <div class="projects">
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio using HTML, CSS and JavaScript.</p>
+            </div>
+
+            <div class="card">
+                <h3>To-Do App</h3>
+                <p>A task management application using JavaScript localStorage.</p>
+            </div>
+
+            <div class="card">
+                <h3>Product Listing</h3>
+                <p>A product page with filtering and sorting functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="title">Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 My Portfolio | All Rights Reserved</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
